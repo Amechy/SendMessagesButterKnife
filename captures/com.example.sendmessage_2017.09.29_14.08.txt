@@ -1,0 +1,60 @@
+Activity Resolver Table:
+  Non-Data Actions:
+      android.intent.action.MAIN:
+        6e25c00 com.example.sendmessage/.SendMessageActivity filter e2cd6f
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          AutoVerify=false
+
+Registered ContentProviders:
+  com.example.sendmessage/com.android.tools.fd.runtime.InstantRunContentProvider:
+    Provider{e695c39 com.example.sendmessage/com.android.tools.fd.runtime.InstantRunContentProvider}
+
+ContentProvider Authorities:
+  [com.example.sendmessage.com.android.tools.fd.runtime.InstantRunContentProvider]:
+    Provider{e695c39 com.example.sendmessage/com.android.tools.fd.runtime.InstantRunContentProvider}
+      applicationInfo=ApplicationInfo{a0bd27e com.example.sendmessage}
+
+Key Set Manager:
+  [com.example.sendmessage]
+      Signing KeySets: 60
+
+Packages:
+  Package [com.example.sendmessage] (f36347d):
+    userId=10152
+    pkg=Package{c9f33df com.example.sendmessage}
+    codePath=/data/app/com.example.sendmessage-1
+    resourcePath=/data/app/com.example.sendmessage-1
+    legacyNativeLibraryDir=/data/app/com.example.sendmessage-1/lib
+    primaryCpuAbi=null
+    secondaryCpuAbi=null
+    versionCode=1 minSdk=22 targetSdk=26
+    versionName=1.0
+    splits=[base, lib_dependencies_apk, lib_slice_0_apk, lib_slice_1_apk, lib_slice_2_apk, lib_slice_3_apk, lib_slice_4_apk, lib_slice_5_apk, lib_slice_6_apk, lib_slice_7_apk, lib_slice_8_apk, lib_slice_9_apk]
+    apkSigningVersion=2
+    applicationInfo=ApplicationInfo{a0bd27e com.example.sendmessage}
+    flags=[ DEBUGGABLE HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP ]
+    privateFlags=[ RESIZEABLE_ACTIVITIES ]
+    dataDir=/data/user/0/com.example.sendmessage
+    supportsScreens=[small, medium, large, xlarge, resizeable, anyDensity]
+    timeStamp=2017-09-29 13:42:28
+    firstInstallTime=2017-09-29 12:04:19
+    lastUpdateTime=2017-09-29 13:42:32
+    signatures=PackageSignatures{dc4cfc3 [68b56d2a]}
+    installPermissionsFixed=true installStatus=1
+    pkgFlags=[ DEBUGGABLE HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP ]
+    User 0: ceDataInode=96765 installed=true hidden=false suspended=false stopped=false notLaunched=false enabled=0
+      runtime permissions:
+
+
+Dexopt state:
+  [com.example.sendmessage]
+    Instruction Set: arm64
+      path: /data/app/com.example.sendmessage-1/base.apk
+      status: /data/app/com.example.sendmessage-1/oat/arm64/base.odex [compilation_filter=interpret-only, status=kOatUpT
+      oDate]
+
+
+Compiler stats:
+  [com.example.sendmessage]
+     base.apk - 157

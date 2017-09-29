@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">SendMessage</string>
+    <string name="title_activity_view_message">ViewMessageActivity</string>
+    <string name="btnOk">OK</string>
+    <string name="txvUsuario">Usuario</string>
+    <string name="txvMessage">Mensaje</string>
+    <string name="txvViewMessage">Alohaa</string>
+    <string name="txvViewUser">El usuario <b>%1$s</b> ha mandado el siguiente mensaje:</string>
+</resources>
