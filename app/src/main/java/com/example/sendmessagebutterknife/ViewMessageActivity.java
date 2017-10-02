@@ -7,6 +7,9 @@ import android.widget.TextView;
 
 import com.example.sendmessagebutterknife.POJO.Message;
 
+import butterknife.BindView;
+import butterknife.ButterKnife;
+
 /**
  * Esta clase recibe un mensaje de un usuario y lo muestra en pantalla
  *  <p>Conceptos aprendidos</p>
@@ -18,16 +21,20 @@ import com.example.sendmessagebutterknife.POJO.Message;
  */
 public class ViewMessageActivity extends AppCompatActivity {
 
-    private TextView txvViewMessage;
-    private TextView txvViewUser;
-    private Message mensaje;
-    private static final String TAG = "ViewMessageActivity";
+    @BindView(R.id.txvViewMessage)
+    TextView txvViewMessage;
+    @BindView(R.id.txvViewUser)
+    TextView txvViewUser;
+    Message mensaje;
+    static final String TAG = "ViewMessageActivity";
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_view_message);
-        txvViewMessage=(TextView) findViewById(R.id.txvViewMessage);
-        txvViewUser=(TextView)findViewById(R.id.txvViewUser);
+
+        //Vincular el id de las vistas en el XML con las clases View
+        ButterKnife.bind(this);
+
         mensaje = (Message)getIntent().getExtras().getSerializable("message");
 
 
